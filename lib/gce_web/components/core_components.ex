@@ -47,6 +47,516 @@ defmodule GceWeb.CoreComponents do
     </a>
     """
   end
+  def schedule_tbd(assigns) do
+    ~H"""
+                <section id="schedule" class="css-5a3jdq">
+                <style data-emotion-css="x64vdy">
+                .css-x64vdy {
+                    max-width: 63rem;
+                    margin: 0px auto;
+                }
+
+                @media screen and (min-width: 42rem) {
+                    .css-x64vdy {
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                    }
+                }
+
+                @supports (display: grid) {
+                    @media screen and (min-width: 42rem) {
+                        .css-x64vdy {
+                            display: grid;
+                            grid: "title content content";
+                            grid-template-columns: 1fr 1fr 1fr;
+                            grid-template-rows: 1fr;
+                            grid-column-gap: 4.35rem;
+                        }
+                    }
+                }
+                </style>
+                <div class="css-x64vdy">
+                    <style data-emotion-css="1yougn2">
+                    .css-1yougn2 {
+                        width: calc(100% / 3 - 4.35rem);
+                        margin-right: 4.35rem;
+                    }
+
+                    @media screen and (min-width: 42rem) {
+                        .css-1yougn2 {
+                            text-align: right;
+                        }
+                    }
+
+                    @supports (display: grid) {
+                        .css-1yougn2 {
+                            margin-right: 0;
+                            width: auto;
+                        }
+
+                        @media screen and (min-width: 42rem) {
+                            .css-1yougn2 {
+                                grid-area: title;
+                            }
+                        }
+                    }
+                    </style>
+                    <div class="css-1yougn2">
+                        <style data-emotion-css="9ysvld">
+                        .css-9ysvld {
+                            text-transform: uppercase;
+                            margin-bottom: 0;
+                            -webkit-letter-spacing: 0.25ch;
+                            -moz-letter-spacing: 0.25ch;
+                            -ms-letter-spacing: 0.25ch;
+                            letter-spacing: 0.25ch;
+                            line-height: 1.075;
+                            font-size: 1.25rem;
+                            color: #772858;
+                        }
+                        </style>
+                        <h2 class="css-9ysvld">Schedule: Coming Soon</h2>
+                      </div>
+                      </div>
+                      </section>
+    """
+  end
+  def schedule(assigns) do
+    ~H"""
+            <section id="schedule" class="css-5a3jdq">
+                <style data-emotion-css="x64vdy">
+                .css-x64vdy {
+                    max-width: 63rem;
+                    margin: 0px auto;
+                }
+
+                @media screen and (min-width: 42rem) {
+                    .css-x64vdy {
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                    }
+                }
+
+                @supports (display: grid) {
+                    @media screen and (min-width: 42rem) {
+                        .css-x64vdy {
+                            display: grid;
+                            grid: "title content content";
+                            grid-template-columns: 1fr 1fr 1fr;
+                            grid-template-rows: 1fr;
+                            grid-column-gap: 4.35rem;
+                        }
+                    }
+                }
+                </style>
+                <div class="css-x64vdy">
+                    <style data-emotion-css="1yougn2">
+                    .css-1yougn2 {
+                        width: calc(100% / 3 - 4.35rem);
+                        margin-right: 4.35rem;
+                    }
+
+                    @media screen and (min-width: 42rem) {
+                        .css-1yougn2 {
+                            text-align: right;
+                        }
+                    }
+
+                    @supports (display: grid) {
+                        .css-1yougn2 {
+                            margin-right: 0;
+                            width: auto;
+                        }
+
+                        @media screen and (min-width: 42rem) {
+                            .css-1yougn2 {
+                                grid-area: title;
+                            }
+                        }
+                    }
+                    </style>
+                    <div class="css-1yougn2">
+                        <style data-emotion-css="9ysvld">
+                        .css-9ysvld {
+                            text-transform: uppercase;
+                            margin-bottom: 0;
+                            -webkit-letter-spacing: 0.25ch;
+                            -moz-letter-spacing: 0.25ch;
+                            -ms-letter-spacing: 0.25ch;
+                            letter-spacing: 0.25ch;
+                            line-height: 1.075;
+                            font-size: 1.25rem;
+                            color: #772858;
+                        }
+                        </style>
+                        <h2 class="css-9ysvld">Schedule</h2>
+                        <style data-emotion-css="12i59y2">
+                        .css-12i59y2 {
+                            -webkit-letter-spacing: 0.25ch;
+                            -moz-letter-spacing: 0.25ch;
+                            -ms-letter-spacing: 0.25ch;
+                            letter-spacing: 0.25ch;
+                            opacity: 0.75;
+                            color: #3B3D40;
+                        }
+                        </style>
+                        <p class="ff-odudomono-l css-12i59y2"></p>
+                    </div>
+                    <style data-emotion-css="1hchxhu">
+                    .css-1hchxhu {
+                        width: calc(100% / 3 * 2);
+                    }
+
+                    @supports (display: grid) {
+                        .css-1hchxhu {
+                            grid-area: content;
+                            width: auto;
+                        }
+
+                        @media screen and (min-width: 42rem) {
+                            .css-1hchxhu {
+                                padding: 0 2.9rem;
+                            }
+                        }
+                    }
+                    </style>
+                    <div class="css-1hchxhu">
+                        <div>
+                            <style data-emotion-css="tom7uu">
+                            .css-tom7uu th, .css-tom7uu td {
+                                vertical-align: top;
+                            }
+
+                            .css-tom7uu th {
+                                white-space: pre;
+                                font-weight: normal;
+                                color: rgba(0, 0, 0, 0.5);
+                                font-family: "OdudoMono-Regular", monospace;
+                            }
+
+                            .css-tom7uu thead th {
+                                color: #772858;
+                                font-size: 20px;
+                                font-family: "OdudoMono-Regular", sans-serif;
+                                border-bottom: 1px solid currentColor;
+                                text-align: center;
+                                padding-top: 1em;
+                            }
+
+                            .css-tom7uu thead th a {
+                                opacity: 0;
+                                position: absolute;
+                            }
+
+                            .css-tom7uu thead th:hover a {
+                                opacity: 1;
+                            }
+
+                            .css-tom7uu thead th a:focus {
+                                opacity: 1;
+                            }
+                            </style>
+                            <table class="css-tom7uu">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">
+                                            <a href="#day-1" id="day-1">#</a>
+                                            <!-- -->
+                                            Friday, May 19th
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th> 8:00 -  8:45</th>
+                                        <td>
+                                            <span>Breakfast and Registration</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 8:45 -  9:00</th>
+                                        <td>
+                                            <span>Announcements</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 9:00 -  9:45</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/randall-thomas/">Randall Thomas</a>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 9:50 - 10:20</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/amos-king/">Amos King</a>
+                                            </strong>
+                                            :<!-- -->
+                                            <span>The Importance of Shepherding - Understanding Your Project in the Wild</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>10:20 - 10:50</th>
+                                        <td>
+                                            <span>Break</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>10:50 - 11:20</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/ben-wheat/">Ben Wheat</a>
+                                            </strong>
+                                            :<!-- -->
+                                            <span>Failure is the Only Option</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>11:20 - 11:30</th>
+                                        <td>
+                                            <span>Platinum Sponsor Talk - Launch Scout</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>11:30 - 12:00</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/andrew-ek/">Andrew Ek</a>
+                                            </strong>
+                                            :<!-- -->
+                                            <span>Better Forms with LiveView</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>12:00 - 12:30</th>
+                                        <td>
+                                            <strong>Stephen Bussey</strong>
+                                            :<!-- -->
+                                            <span>Make Elixir Libraries Work for You: Innovate Through Risk</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>12:30 -  1:40</th>
+                                        <td>
+                                            <span>Lunch</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 1:40 -  2:10 </th>
+                                        <td>
+                                            <strong>
+                                                <a href="/frank-hunleth/">Frank Hunleth</a>
+                                            </strong>
+                                            :<!-- -->
+                                            <span>Nerves Update</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 2:15 -  2:45</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/kimberly-erni/">Kimberly Erni</a>
+                                            </strong>
+                                            :<!-- -->
+                                            <span>From Self-Taught to First Job</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 2:45 -  2:50</th>
+                                        <td>
+                                            <span>Platinum Sponsor talk - Groxio</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 2:50 -  3:35</th>
+                                        <td>
+                                            <strong>Elixir Chatt Panel -  Frank, Alexa, Bruce</strong>
+                                            :<!-- -->
+                                            <span>A Great Loop PCB Adventure</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 3:35 -  4:00</th>
+                                        <td>
+                                            <span>Break</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 4:00 -  4:30</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/chris-keathley/">Chris Keathley</a>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 4:30 -  5:00</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/zach-daniel/">Zach Daniel</a>
+                                            </strong>
+                                            :<!-- -->
+                                            <span>Domain Modeling, Elevated</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 6:00 -  9:00</th>
+                                        <td>
+                                            <a href="https://www.google.com/maps/place/Moxy+Chattanooga+Downtown/@35.0399322,-85.3071289,17z/data=!4m20!1m10!3m9!1s0x88605fe8761cce13:0xca45ed9b3732da0b!2sMoxy+Chattanooga+Downtown!5m2!4m1!1i2!8m2!3d35.0399322!4d-85.3071289!16s%2Fg%2F11f5488nmn!3m8!1s0x88605fe8761cce13:0xca45ed9b3732da0b!5m2!4m1!1i2!8m2!3d35.0399322!4d-85.3071289!16s%2Fg%2F11f5488nmn">
+                                                Dinner - The Moxy
+                                                <br/>
+                                                1220 King St Chattanooga, TN 37403
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <thead>
+                                    <tr>
+                                        <th colspan="2" style="padding-top:3rem">
+                                            <a href="#day-2" id="day-2">#</a>
+                                            <!-- -->
+                                            Saturday, May 20th
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th> 8:00 -  8:45</th>
+                                        <td>
+                                            <span>Breakfast</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 8:45 -  9:00</th>
+                                        <td>
+                                            <span>Announcements</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 9:00 -  9:45</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/bryan-hunter/">Bryan Hunter</a>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 9:50 - 10:20</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/joshua-plicque/">Joshua Plicque</a>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>10:20 - 10:50</th>
+                                        <td>
+                                            <span>Break</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>10:50 - 11:20</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/eric-oestrich/">Eric Oestrich</a>
+                                            </strong>
+                                            :<!-- -->
+                                            <span>I know you know Phoenix, but do you know Aino?</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>11:20 - 11:30</th>
+                                        <td>
+                                            <span>Platinum Sponsor Talk - Adobe</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>11:30 - 12:00</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/greg-mefford/">Greg Mefford</a>
+                                            </strong>
+                                              and
+                                            <strong>
+                                                <a href="/matt-enlow/">Matt Enlow</a>
+                                            </strong>
+                                            :<!-- -->
+                                            <span>Styler: An Elixir Style-Guide Enforcer</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>12:00 - 12:30</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/sigu-magwa/">Sigu Magwa</a>
+                                            </strong>
+                                            :<!-- -->
+                                            <span>Observability in Elixir Applications</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>12:30 -  1:40</th>
+                                        <td>
+                                            <span>Lunch</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 1:40 -  2:10 </th>
+                                        <td>
+                                            <span>Lightning Talks</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 2:15 -  2:45</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/jeffrey-matthias/">Jeffrey Matthias</a>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 2:45 -  3:00</th>
+                                        <td>
+                                            <span>Break</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 3:00 -  3:30</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/scott-southworth/">Scott Southworth</a>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th> 3:45 -  4:30</th>
+                                        <td>
+                                            <strong>
+                                                <a href="/bruce-tate/">Bruce Tate</a>
+                                            </strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>         4:30</th>
+                                        <td>
+                                            <span>Wrap!</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    """
+  end
 
 
 
