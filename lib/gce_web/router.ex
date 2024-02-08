@@ -18,6 +18,11 @@ defmodule GceWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/about", PageController, :about
+    get "/schedule", PageController, :schedule
+    get "/coc", PageController, :coc
+    get "/contact", PageController, :contact
+    get "/speakers/:slug", PageController, :speakers
   end
 
   # Other scopes may use custom stacks.
