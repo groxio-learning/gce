@@ -113,8 +113,8 @@ defmodule GceWeb.PagesComponent do
       }
     </style>
     <section class="css-11bw24s">
-      <p>
-        ...and sponsors, get in touch with us! <br />
+      <p style="text-align: center">
+        We are looking for speakers and sponsors, get in touch with us! <br />
         <br />
         <style data-emotion-css="15pmwzr">
           .css-15pmwzr {

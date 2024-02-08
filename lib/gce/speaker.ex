@@ -54,7 +54,7 @@ defmodule Gce.Speaker do
       spk("Todd Resudek", "todd-resudek", "todd-resudek.jpeg", nil),
       spk("Anna Sherman", "anna-sherman", "anna-sherman.png", nil),
       spk("Lekha Surasani", "lekha-surasani", "lekha-surasani.jpeg", nil),
-      spk("We are looking for speakers...", "tbd", "default.svg", "tbd")
+      spk("More to be announced", "tbd", "default.svg", "tbd")
     ]
   end
 
