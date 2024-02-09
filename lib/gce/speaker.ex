@@ -50,7 +50,7 @@ defmodule Gce.Speaker do
       "
       ),
       spk("Sam McDavid", "sam-mcdavid", "sam-mcdavid.png", nil),
-      spk("Flora Peterson", "flora-peterson", nil, nil),
+      spk("Flora Shepherd Petterson", "flora-peterson", "flora.jpeg", ""),
       spk("Todd Resudek", "todd-resudek", "todd-resudek.jpeg", nil),
       spk("Anna Sherman", "anna-sherman", "anna-sherman.png", nil),
       spk("Lekha Surasani", "lekha-surasani", "lekha-surasani.jpeg", nil),
