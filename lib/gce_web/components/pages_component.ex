@@ -4,7 +4,7 @@ defmodule GceWeb.PagesComponent do
   def page_header(assigns) do
     ~H"""
     <style data-emotion-css="b3y1vt">
-      .css-b3y1vt{background-color:#772858;padding:1.45rem 0;color:#F8EBF2;background-image:url("/static/topo.svg");background-position:50% 50%;background-repeat:no-repeat;}
+      .css-b3y1vt{background-color:#772858;padding:1.45rem 0;color:#F8EBF2;background-image:url("/images/topo.svg");background-position:50% 50%;background-repeat:no-repeat;}
     </style>
     <header class="css-b3y1vt">
       <style data-emotion-css="1bwh1n3">
