@@ -53,7 +53,13 @@ defmodule Gce.Speaker do
       spk("Flora Shepherd Petterson", "flora-peterson", "flora.jpeg", ""),
       spk("Todd Resudek", "todd-resudek", "todd-resudek.jpeg", nil),
       spk("Anna Sherman", "anna-sherman", "anna-sherman.png", nil),
-      spk("Lekha Surasani", "lekha-surasani", "lekha-surasani.jpeg", nil),
+      spk(
+        "Lekha Surasani",
+        "lekha-surasani",
+        "lekha-surasani.jpeg",
+        "Lekha is currently working as a Senior Software Engineer at Adpipe. She’s worked with a variety of technologies, including Ruby/Rails, React, Elixir and Phoenix/Live View, and primarily works at startups. In her free time, she likes to read, travel, and go on long walks in her city.
+      "
+      ),
       spk("More to be announced", "tbd", "default.svg", "tbd")
     ]
   end

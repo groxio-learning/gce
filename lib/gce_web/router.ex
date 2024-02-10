@@ -23,6 +23,7 @@ defmodule GceWeb.Router do
     get "/coc", PageController, :coc
     get "/contact", PageController, :contact
     get "/speakers/:slug", PageController, :speakers
+    get "/training", PageController, :training
   end
 
   # Other scopes may use custom stacks.
