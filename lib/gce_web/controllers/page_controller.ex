@@ -23,6 +23,10 @@ defmodule GceWeb.PageController do
     render(conn, :contact)
   end
 
+  def training(conn, _params) do
+    render(conn, :training)
+  end
+
   def speakers(conn, %{"slug" => slug}) do
     speaker = Enum.find(Gce.Speaker.all(), fn spk -> spk.slug == slug end)
     render(conn, "speakers.html", speaker: speaker)

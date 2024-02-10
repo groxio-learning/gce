@@ -91,6 +91,7 @@ defmodule GceWeb.PagesComponent do
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/schedule">Schedule</a>
+        <a href="/training">Training</a>
         <a href="/coc">CoC</a>
         <a href="/contact">Contact</a>
         <a href="https://2018.gigcityelixir.com/">2018</a>
