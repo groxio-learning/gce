@@ -18,9 +18,13 @@ defmodule Gce.Speaker do
         "Bryan Hunter is an Enterprise Fellow at HCA Healthcare. He has three decades of custom software development and consulting experience in complex business domains. In 2012 he founded Nashville Functional Programmers (@NashFP). Bryan enjoys supporting FP communities around the world and has shared his experience in Lean and functional programming at conferences and universities in Oslo, London, Manila, Bangalore, Brisbane, and throughout the United States.
       "
       ),
-      spk("Randall Thomas", "randall-thomas", "randall-thomas.jpg",
-      "Randall Thomas (@daksis) is a classically trained musician that took one too many calculus classes and got sucked into geekery: computers, robots, video games, high energy physics - the usual suspects.
-      Afflicted with rabid technology ADD, Randall has built companies in various industries with numerous startups -- everything from robotics to digital video to cloud computing. Randall founded Thunderbolt Labs - a software consultancy that teaches companies how to build better software by embedding with their teams and building it beside them."),
+      spk(
+        "Randall Thomas",
+        "randall-thomas",
+        "randall-thomas.jpg",
+        "Randall Thomas (@daksis) is a classically trained musician that took one too many calculus classes and got sucked into geekery: computers, robots, video games, high energy physics - the usual suspects.
+      Afflicted with rabid technology ADD, Randall has built companies in various industries with numerous startups -- everything from robotics to digital video to cloud computing. Randall founded Thunderbolt Labs - a software consultancy that teaches companies how to build better software by embedding with their teams and building it beside them."
+      ),
       spk("Savannah Manning", "savannah-manning", "savannah-manning.jpeg", nil),
       spk("Chris Miller", "chris-miller", "chris-miller.png", nil),
       spk(
@@ -63,6 +67,8 @@ defmodule Gce.Speaker do
         "Lekha is currently working as a Senior Software Engineer at Adpipe. She’s worked with a variety of technologies, including Ruby/Rails, React, Elixir and Phoenix/Live View, and primarily works at startups. In her free time, she likes to read, travel, and go on long walks in her city.
       "
       ),
+      spk("Stuart Page", "stuart-page", "stuart-page.jpg", nil),
+      spk("Chris Nelson", "chris-nelson", "chris-nelson.jpg", nil),
       spk("More to be announced", "tbd", "default.svg", "tbd")
     ]
   end
