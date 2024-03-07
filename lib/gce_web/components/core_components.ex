@@ -22,6 +22,7 @@ defmodule GceWeb.CoreComponents do
   attr :img, :string, default: "default.svg"
   attr :name, :string, default: "Announced Soon"
   attr :slug, :string, default: "anonymous-moose"
+  attr :talk, :string
 
   def speaker(assigns) do
     ~H"""
@@ -35,15 +36,31 @@ defmodule GceWeb.CoreComponents do
             display: -webkit-flex;
             display: -ms-flexbox;
             display: flex;
+            -webkit-flex-direction: column;
             -webkit-align-items: center;
+            -webkit-justify-content: center;
             -webkit-box-align: center;
             -ms-flex-align: center;
-            align-items: center;
-            font-size: 1.3512rem;
-            line-height: 2.175rem;
+            align-items: start;
+            justify-content: center;
+            font-size: 1.3rem;
+            line-height: 1.5rem;
         }
       </style>
-      <div class="css-1xoq505"><%= @name %></div>
+      <style data-emotion-css="1xoq5051">
+        .css-1xoq5051 {
+            color: white;
+            font-size: 1rem;
+            line-height: 1.2rem;
+            margin: 0.5rem 0 0 0;
+        }
+      </style>
+      <div class="css-1xoq505">
+        <span><%= @name %></span>
+        <%= if @talk !== nil do %>
+          <span class="css-1xoq5051">"<%= @talk %>"</span>
+        <% end %>
+      </div>
     </a>
     """
   end

@@ -486,7 +486,12 @@
             }
           </style>
           <%= for speaker <- Gce.Speaker.all do %>
-            <.speaker name={speaker.name} slug={speaker.slug} img={speaker.image} />
+            <.speaker
+              name={speaker.name}
+              slug={speaker.slug}
+              img={speaker.image}
+              talk={speaker.talk}
+            />
           <% end %>
         </div>
       </div>
