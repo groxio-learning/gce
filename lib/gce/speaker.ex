@@ -78,7 +78,15 @@ defmodule Gce.Speaker do
       ",
         nil
       ),
-      spk("Anna Sherman", "anna-sherman", "anna-sherman.png", nil, nil),
+      spk(
+        "Anna Sherman",
+        "anna-sherman",
+        "anna-sherman.png",
+        "Anna Sherman is a Senior Software Engineer and Team Lead at Zillion, driving innovation in the insurtech industry.
+      Outside of work, she finds joy in painting, biking, and yoga, drawing inspiration from Bob Ross's techniques and the tranquility of nature. Anna's commitment to holistic well-being extends to her family, whom she cherishes above all. With her diverse interests and dedication to excellence, Anna brings a fresh perspective to the tech conference stage, inspiring others to embrace innovation, mindfulness, and balance in their lives.
+      ",
+        nil
+      ),
       spk(
         "Lekha Surasani",
         "lekha-surasani",
@@ -89,6 +97,13 @@ defmodule Gce.Speaker do
       ),
       spk("Stuart Page", "stuart-page", "stuart-page.jpg", nil, nil),
       spk("Chris Nelson", "chris-nelson", "chris-nelson.jpg", nil, nil),
+      spk(
+        "Josh Price",
+        "josh-price",
+        "josh-price.jpg",
+        "Josh Price is a polyglot software developer and technology consultant from Sydney, Australia.He’s passionate about modern approaches to Software Development and helping teams build amazing software faster with better tooling. He’s organised community events such as the Elixir Sydney and GraphQL Sydney meetups for many years.He also co-founded Alembic, which is building a team to bring functional programming benefits to everyone’s day to day work. When not running Alembic or thinking about how to build software more effectively, he’ll generally enjoy talking interesting ideas over a pint of craft beer. or thinking about his next adventure.",
+        "Ash 3.0: The Fast Track to Full Stack"
+      ),
       spk("More to be announced", "tbd", "default.svg", "tbd", nil)
     ]
   end
