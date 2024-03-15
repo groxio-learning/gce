@@ -28,7 +28,14 @@ defmodule Gce.Speaker do
       Afflicted with rabid technology ADD, Randall has built companies in various industries with numerous startups -- everything from robotics to digital video to cloud computing. Randall founded Thunderbolt Labs - a software consultancy that teaches companies how to build better software by embedding with their teams and building it beside them.",
         nil
       ),
-      spk("Savannah Manning", "savannah-manning", "savannah-manning.jpeg", nil, nil),
+      spk(
+        "Savannah Manning",
+        "savannah-manning",
+        "savannah-manning.jpeg",
+        "Savannah Manning, a spirited Software Engineer since 2020, thrives in the Elixir development community. Before transitioning to software engineering, she founded an international climbing company focused on outdoor skill-building. Last year, she shared her experiences at both the EU and US Elixir conferences, shedding light on her journey into the Elixir space. With a blend of technical expertise and adventurous spirit, she continues to push boundaries, both in code and on the rock face.
+      ",
+        nil
+      ),
       spk("Chris Miller", "chris-miller", "chris-miller.png", nil, nil),
       spk(
         "Zach Daniel",
