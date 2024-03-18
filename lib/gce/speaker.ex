@@ -76,7 +76,13 @@ defmodule Gce.Speaker do
       ",
         "ML for Trading Stocks"
       ),
-      spk("Flora Shepherd Petterson", "flora-peterson", "flora.jpeg", "", nil),
+      spk(
+        "Flora Shepherd Petterson",
+        "flora-peterson",
+        "flora.jpeg",
+        "Flora is a Data Integration Engineer on the Waterpark team at HCA Healthcare. After many years working in communications and marketing, she is happy to write Elixir every day in her new career. A self-taught developer, Flora learned Elixir to build hobby projects with Nerves.  She is forever grateful to Groxio’s Elixir Chatt, the mentoring group that helped begin her programming journey. Flora lives in her hometown of New Orleans with her husband, three kids, and one loud cat.",
+        nil
+      ),
       spk(
         "Todd Resudek",
         "todd-resudek",
