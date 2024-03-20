@@ -81,7 +81,8 @@ defmodule Gce.Speaker do
         "flora-peterson",
         "flora.jpeg",
         "Flora is a Data Integration Engineer on the Waterpark team at HCA Healthcare. After many years working in communications and marketing, she is happy to write Elixir every day in her new career. A self-taught developer, Flora learned Elixir to build hobby projects with Nerves.  She is forever grateful to Groxio’s Elixir Chatt, the mentoring group that helped begin her programming journey. Flora lives in her hometown of New Orleans with her husband, three kids, and one loud cat.",
-        "The Programming Languages Tour, Elixir’s Version"),
+        "The Programming Languages Tour, Elixir’s Version"
+      ),
       spk(
         "Todd Resudek",
         "todd-resudek",
@@ -97,7 +98,7 @@ defmodule Gce.Speaker do
         "Anna Sherman is a Senior Software Engineer and Team Lead at Zillion, driving innovation in the insurtech industry.
       Outside of work, she finds joy in painting, biking, and yoga, drawing inspiration from Bob Ross's techniques and the tranquility of nature. Anna's commitment to holistic well-being extends to her family, whom she cherishes above all. With her diverse interests and dedication to excellence, Anna brings a fresh perspective to the tech conference stage, inspiring others to embrace innovation, mindfulness, and balance in their lives.
       ",
-        nil
+        "The Joy of Functional Coding: Exploring Functional Programming through the Lens of Bob Ross"
       ),
       spk(
         "Lekha Surasani",
@@ -107,7 +108,15 @@ defmodule Gce.Speaker do
       ",
         nil
       ),
-      spk("Stuart Page", "stuart-page", "stuart-page.jpg", nil, nil),
+      spk(
+        "Stuart Page",
+        "stuart-page",
+        "stuart-page.jpg",
+        "Stuart Page is software engineer at Revelry, a New Orleans-based company that helps businesses succeed and scale with transformative, solution-oriented custom software. He’s been a part of the Revelry team since April 2021.
+      Stuart graduated from the Tech Talent South bootcamp in 2021 (where he learned Java and C#) and Revelry's apprenticeship program (where he learned everything else - HTML, CSS, TypeScript, Elixir). He lives with his wife and cat, and spends his time making and breaking code, as well as playing the ukulele and video games.",
+        "Stupid, Awesome AI! Product Development When the Tech Is Changing Daily
+      "
+      ),
       spk("Chris Nelson", "chris-nelson", "chris-nelson.jpg", nil, nil),
       spk(
         "Josh Price",
@@ -115,6 +124,21 @@ defmodule Gce.Speaker do
         "josh-price.jpg",
         "Josh Price is a polyglot software developer and technology consultant from Sydney, Australia.He’s passionate about modern approaches to Software Development and helping teams build amazing software faster with better tooling. He’s organised community events such as the Elixir Sydney and GraphQL Sydney meetups for many years.He also co-founded Alembic, which is building a team to bring functional programming benefits to everyone’s day to day work. When not running Alembic or thinking about how to build software more effectively, he’ll generally enjoy talking interesting ideas over a pint of craft beer. or thinking sabout his next adventure.",
         "Ash 3.0: The Fast Track to Full Stack"
+      ),
+      spk(
+        "Ruth Kohtz",
+        "ruth-kohtz",
+        "ruth-kohtz.jpeg",
+        "Ruth Kohtz Ek has been teaching without a license since 2010. She has facilitated workshops for middle schoolers through adults on poetry, pregnancy and STD-prevention, and trauma-informed yoga, as well as taking on training roles in a variety of jobs from retail to public schools to non-profits. Ruth currently works at BraveBe Child Advocacy Center in Lincoln NE, where she lives with her husband Andrew, their beautiful daughter, and a majestic cat.
+        ",
+        nil
+      ),
+      spk(
+        "Lars Wikman",
+        "lars-wikman",
+        "lars-wikman.jpg",
+        "Founder and writer of Underjord. An experimental programmer ranging from embedded Nerves to LiveView frontends. Shares enthusiasm for the BEAM across writing, podcasts, videos and livestreams. Just wants to make things that do things.",
+        nil
       ),
       spk("More to be announced", "tbd", "default.svg", "tbd", nil)
     ]
