@@ -147,6 +147,14 @@ defmodule Gce.Speaker do
         "Founder and writer of Underjord. An experimental programmer ranging from embedded Nerves to LiveView frontends. Shares enthusiasm for the BEAM across writing, podcasts, videos and livestreams. Just wants to make things that do things.",
         nil
       ),
+      spk(
+        "Andrea Leopardi",
+        "andrea-leopardi",
+        "andrea-leopardi.jpeg",
+        "Andrea (he/him) is a software engineer and architect, a public speaker, trainer, and book author. He's been a member of the Elixir core team for several years. He works as a principal engineer at Veeps. He's from far far away, a tiny town in the middle of Italy.
+        ",
+        nil
+      ),
       spk("More to be announced", "tbd", "default.svg", "tbd", nil)
     ]
   end
