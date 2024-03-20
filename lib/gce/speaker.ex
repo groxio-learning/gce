@@ -117,7 +117,14 @@ defmodule Gce.Speaker do
         "Stupid, Awesome AI! Product Development When the Tech Is Changing Daily
       "
       ),
-      spk("Chris Nelson", "chris-nelson", "chris-nelson.jpg", nil, nil),
+      spk(
+        "Chris Nelson",
+        "chris-nelson",
+        "chris-nelson.jpg",
+        "Chris Nelson is a Co-Founder and Principal Engineer at Launch Scout, a custom software development firm in Cincinnati. He created the company’s apprenticeship program, mentors new developers, and helps sets technology direction. He loves sharing what he’s learned from over 25 years of developing software across a wide range of industries. Chris has given workshops across the country and spoken at conferences including Elixirconf, RailsConf, RubyConf, JavaOne, CodeMash and Scottish Ruby Conf.
+      ",
+        "LiveState: LiveView re-imagined"
+      ),
       spk(
         "Josh Price",
         "josh-price",
