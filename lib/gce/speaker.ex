@@ -10,7 +10,7 @@ defmodule Gce.Speaker do
         "frank-hunleth.jpg",
         "Frank Hunleth is an embedded systems programmer, OSS maintainer, and Nerves core team member. At his day job, he uses Elixir and Nerves at SmartRent, a company that provides smart home automation for rental properties. When not in front of a computer, he loves running and spending time with his family.
       ",
-        nil
+        "Nerves Project Update"
       ),
       spk(
         "Bryan Hunter",
@@ -133,12 +133,12 @@ defmodule Gce.Speaker do
         "Ash 3.0: The Fast Track to Full Stack"
       ),
       spk(
-        "Ruth Kohtz",
+        "Ruth Kohtz Ek",
         "ruth-kohtz",
         "ruth-kohtz.jpeg",
         "Ruth Kohtz Ek has been teaching without a license since 2010. She has facilitated workshops for middle schoolers through adults on poetry, pregnancy and STD-prevention, and trauma-informed yoga, as well as taking on training roles in a variety of jobs from retail to public schools to non-profits. Ruth currently works at BraveBe Child Advocacy Center in Lincoln NE, where she lives with her husband Andrew, their beautiful daughter, and a majestic cat.
         ",
-        nil
+        "Effective Teaching and Training Practices for Software Developers"
       ),
       spk(
         "Lars Wikman",
