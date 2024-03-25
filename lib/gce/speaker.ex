@@ -34,9 +34,15 @@ defmodule Gce.Speaker do
         "savannah-manning.jpeg",
         "Savannah Manning, a spirited Software Engineer since 2020, thrives in the Elixir development community. Before transitioning to software engineering, she founded an international climbing company focused on outdoor skill-building. Last year, she shared her experiences at both the EU and US Elixir conferences, shedding light on her journey into the Elixir space. With a blend of technical expertise and adventurous spirit, she continues to push boundaries, both in code and on the rock face.
       ",
-        nil
+        "AI: Less Scary Than Your Last Date's Mood Swings - Emotion Detection Made Easy with Bumblebee"
       ),
-      spk("Chris Miller", "chris-miller", "chris-miller.png", nil, nil),
+      spk(
+        "Chris Miller",
+        "chris-miller",
+        "chris-miller.png",
+        "Chris has a bachelor’s degree in Mathematics and a deep passion for languages, encompassing both spoken and programming languages. Chris’s programming journey began with Haskell, which fostered a love for elegant, functional code. At Corvus Insurance, Chris contributes to building a world-class underwriting platform using Elm and Elixir, skillfully combining expertise to develop innovative, AI-driven applications. Outside of work, Chris shares his coding journey and insights through the YouTube channel, CodeNextDoor. Blending a strong mathematical background with a linguistic curiosity, Chris continually explores new frontiers in AI and software development.",
+        "How to Move Fast and Build Things: Spawnfest 2023 Recap"
+      ),
       spk(
         "Zach Daniel",
         "zach-daniel",
@@ -58,7 +64,7 @@ defmodule Gce.Speaker do
         "andrew-ek.jpeg",
         "Andrew Ek is a principal engineer with Launch Scout, where he builds software for clients using Elixir, Ruby, and Javascript, and where he trains software development apprentices. He lives in Lincoln, Nebraska, with his spouse, their daughter, and two orange cats. You can find his thoughts about programming and tennis on twitter at @ektastrophe.
       ",
-        nil
+        "An Opinionated Approach for Onboarding New-to-Elixir Developers"
       ),
       spk(
         "Amos King",
@@ -114,8 +120,7 @@ defmodule Gce.Speaker do
         "stuart-page.jpg",
         "Stuart Page is software engineer at Revelry, a New Orleans-based company that helps businesses succeed and scale with transformative, solution-oriented custom software. He’s been a part of the Revelry team since April 2021.
       Stuart graduated from the Tech Talent South bootcamp in 2021 (where he learned Java and C#) and Revelry's apprenticeship program (where he learned everything else - HTML, CSS, TypeScript, Elixir). He lives with his wife and cat, and spends his time making and breaking code, as well as playing the ukulele and video games.",
-        "Stupid, Awesome AI! Product Development When the Tech Is Changing Daily
-      "
+        "Stupid, Awesome AI! Product Development When the Tech Is Changing Daily"
       ),
       spk(
         "Chris Nelson",
