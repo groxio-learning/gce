@@ -160,7 +160,13 @@ defmodule Gce.Speaker do
         ",
         nil
       ),
-      spk("More to be announced", "tbd", "default.svg", "tbd", nil)
+      spk(
+        "Bruce Tate",
+        "bruce-tate",
+        "bruce-tate.jpeg",
+        "Bruce Tate lives in Chattanooga, Tennessee. An avid adventurer, he enjoys kayaking rivers, indoor climbing, and boating. He has actively participated in the launch of three companies. With a strong focus on education, Bruce is an author of over a dozen books and a prominent figure in the Elixir community as a speaker, author, editor, and conference organizer. In 2018, he founded Groxio, a platform dedicated to teaching computer languages. Bruce Tate's contributions in the field of programming education have made a significant impact nationally and beyond.",
+        nil
+      )
     ]
   end
 
