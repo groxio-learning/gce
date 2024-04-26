@@ -482,7 +482,8 @@
                 position: relative;
             }
           </style>
-          <%= for speaker <- Gce.Speaker.all do %>
+          <%= for speaker <- Gce.Speaker.all 
+           do %>
             <.speaker
               name={speaker.name}
               slug={speaker.slug}
