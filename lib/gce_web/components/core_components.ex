@@ -220,10 +220,18 @@ defmodule GceWeb.CoreComponents do
 
             }
           </style>
+          <style data-emotion-css="9ysvld12">
+            .css-9ysvld12 {
+              display: flex;
+              flex-direction: row;
+              gap: 20px;
+              style: none;
+              justify-content: start;
+              margin-right: 3px;
+            }
+          </style>
           <div class="css-9ysvld1">
             <h2 class="css-9ysvld">Schedule</h2>
-            <strong><a href="#day-1" id="day-1">Day 1</a></strong>
-            <strong><a href="#day-2" id="day-2">Day 2</a></strong>
           </div>
 
           <style data-emotion-css="12i59y2">
@@ -300,9 +308,12 @@ defmodule GceWeb.CoreComponents do
             <table class="css-tom7uu">
               <thead>
                 <tr>
-                  <th colspan="2">
-                    <!-- -->
-                                            Friday, May 10th
+                  <div class="css-9ysvld12">
+                    <strong><a href="#day-1">#day 1</a></strong>
+                    <strong><a href="#day-2">#day 2</a></strong>
+                  </div>
+                  <th id="day-1" colspan="2">
+                    Friday, May 10th
                   </th>
                 </tr>
               </thead>
@@ -470,7 +481,7 @@ defmodule GceWeb.CoreComponents do
               </tbody>
               <thead>
                 <tr>
-                  <th colspan="2" style="padding-top:3rem">
+                  <th id="day-2" colspan="2" style="padding-top:1rem">
                     <!-- -->
                                             Saturday, May 11th
                   </th>
