@@ -67,7 +67,7 @@ defmodule GceWeb.CoreComponents do
 
   def schedule_tbd(assigns) do
     ~H"""
-    <section id="schedule" class="css-5a3jdq">
+    <section id="schedule_tbd" class="css-5a3jdq">
       <style data-emotion-css="x64vdy">
         .css-x64vdy {
             max-width: 63rem;
@@ -135,14 +135,14 @@ defmodule GceWeb.CoreComponents do
                 color: #772858;
             }
           </style>
-          <h2 class="css-9ysvld">Schedule: Coming Soon</h2>
+          <h2 class="css-9ysvld">Schedule</h2>
         </div>
       </div>
     </section>
     """
   end
 
-  def schedule(assigns) do
+  def schedule1(assigns) do
     ~H"""
     <section id="schedule" class="css-5a3jdq">
       <style data-emotion-css="x64vdy">
@@ -212,7 +212,20 @@ defmodule GceWeb.CoreComponents do
                 color: #772858;
             }
           </style>
-          <h2 class="css-9ysvld">Schedule</h2>
+          <style data-emotion-css="9ysvld1">
+            .css-9ysvld1 {
+                display: flex;
+                flex-direction: column;
+                gap: 10px
+
+            }
+          </style>
+          <div class="css-9ysvld1">
+            <h2 class="css-9ysvld">Schedule</h2>
+            <strong><a href="#day-1" id="day-1">Day 1</a></strong>
+            <strong><a href="#day-2" id="day-2">Day 2</a></strong>
+          </div>
+
           <style data-emotion-css="12i59y2">
             .css-12i59y2 {
                 -webkit-letter-spacing: 0.25ch;
@@ -262,8 +275,7 @@ defmodule GceWeb.CoreComponents do
                   font-size: 20px;
                   font-family: "OdudoMono-Regular", sans-serif;
                   border-bottom: 1px solid currentColor;
-                  text-align: center;
-                  padding-top: 1em;
+                  text-align: right;
               }
 
               .css-tom7uu thead th a {
@@ -279,34 +291,39 @@ defmodule GceWeb.CoreComponents do
                   opacity: 1;
               }
             </style>
+            <style data-emotion-css="tom7uu1">
+              .css-tom7uu1 {
+                color: #772858;
+
+              }
+            </style>
             <table class="css-tom7uu">
               <thead>
                 <tr>
                   <th colspan="2">
-                    <a href="#day-1" id="day-1">#</a>
                     <!-- -->
-                                            Friday, May 19th
+                                            Friday, May 10th
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th>8:00 -  8:45</th>
+                  <th>8:00 - 8:45</th>
                   <td>
                     <span>Breakfast and Registration</span>
                   </td>
                 </tr>
                 <tr>
-                  <th>8:45 -  9:00</th>
+                  <th>8:45 - 9:00</th>
                   <td>
-                    <span>Announcements</span>
+                    <span>Welcome</span>
                   </td>
                 </tr>
                 <tr>
-                  <th>9:00 -  9:45</th>
+                  <th>9:00 - 9:45</th>
                   <td>
                     <strong>
-                      <a href="/randall-thomas/">Randall Thomas</a>
+                      <span class="css-tom7uu1"> Randall Thomas</span>
                     </strong>
                   </td>
                 </tr>
@@ -314,11 +331,11 @@ defmodule GceWeb.CoreComponents do
                   <th>9:50 - 10:20</th>
                   <td>
                     <strong>
-                      <a href="/amos-king/">Amos King</a>
+                      <span class="css-tom7uu1">Brian Cardela</span>
                     </strong>
                     :<!-- -->
                     <span>
-                      The Importance of Shepherding - Understanding Your Project in the Wild
+                      "LiveView Native"
                     </span>
                   </td>
                 </tr>
@@ -332,102 +349,118 @@ defmodule GceWeb.CoreComponents do
                   <th>10:50 - 11:20</th>
                   <td>
                     <strong>
-                      <a href="/ben-wheat/">Ben Wheat</a>
+                      <span class="css-tom7uu1">Lekha Surisani</span>
                     </strong>
                     :<!-- -->
-                    <span>Failure is the Only Option</span>
+                    <span> "Tales of Using Phoenix LiveView at an Early Stage Startup"</span>
                   </td>
                 </tr>
                 <tr>
-                  <th>11:20 - 11:30</th>
+                  <th>11:25 - 11:30</th>
                   <td>
-                    <span>Platinum Sponsor Talk - Launch Scout</span>
+                    <span class="css-tom7uu1">Platinum Sponsor Talk - HCA</span>
                   </td>
                 </tr>
                 <tr>
                   <th>11:30 - 12:00</th>
                   <td>
                     <strong>
-                      <a href="/andrew-ek/">Andrew Ek</a>
+                      <span class="css-tom7uu1">Andrew Ek</span>
                     </strong>
                     :<!-- -->
-                    <span>Better Forms with LiveView</span>
+                    <span>"An Opinionated Approach for Onboarding New-to-Elixir Developers"</span>
                   </td>
                 </tr>
                 <tr>
                   <th>12:00 - 12:30</th>
                   <td>
-                    <strong>Stephen Bussey</strong>
+                    <strong><span class="css-tom7uu1">Stuart Page</span></strong>
                     :<!-- -->
-                    <span>Make Elixir Libraries Work for You: Innovate Through Risk</span>
+                    <span>
+                      "Stupid, Awesome AI! Product Development When the Tech Is Changing Daily"
+                    </span>
                   </td>
                 </tr>
                 <tr>
-                  <th>12:30 -  1:40</th>
+                  <th>12:30 - 1:40</th>
                   <td>
                     <span>Lunch</span>
                   </td>
                 </tr>
                 <tr>
-                  <th>1:40 -  2:10</th>
+                  <th>1:40 - 2:30</th>
+                  <td>
+                    <span class="css-tom7uu1">Beam Radio Recording and Groxio sponsor 5 min</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>2:30 - 3:00</th>
                   <td>
                     <strong>
-                      <a href="/frank-hunleth/">Frank Hunleth</a>
+                      <span class="css-tom7uu1">Frank Hunleth </span>
                     </strong>
                     :<!-- -->
-                    <span>Nerves Update</span>
+                    <span>"Nerves Update"</span>
                   </td>
                 </tr>
                 <tr>
-                  <th>2:15 -  2:45</th>
+                  <th>3:00 - 3:30</th>
                   <td>
                     <strong>
-                      <a href="/kimberly-erni/">Kimberly Erni</a>
+                      <span class="css-tom7uu1">Sam McDavid </span>
                     </strong>
                     :<!-- -->
-                    <span>From Self-Taught to First Job</span>
+                    <span>"ML for Trading Stocks in Elixir"</span>
                   </td>
                 </tr>
                 <tr>
-                  <th>2:45 -  2:50</th>
+                  <th>3:30 - 4:00</th>
                   <td>
-                    <span>Platinum Sponsor talk - Groxio</span>
-                  </td>
-                </tr>
-                <tr>
-                  <th>2:50 -  3:35</th>
-                  <td>
-                    <strong>Elixir Chatt Panel -  Frank, Alexa, Bruce</strong>
+                    <strong>
+                      <span class="css-tom7uu1">Flora Petterson </span>
+                    </strong>
                     :<!-- -->
-                    <span>A Great Loop PCB Adventure</span>
+                    <span> "The Programming Languages Tour, Elixir’s Version"</span>
                   </td>
                 </tr>
                 <tr>
-                  <th>3:35 -  4:00</th>
+                  <th>4:00 - 4:15</th>
                   <td>
                     <span>Break</span>
                   </td>
                 </tr>
+
                 <tr>
-                  <th>4:00 -  4:30</th>
+                  <th>4:15 - 4:45</th>
                   <td>
                     <strong>
-                      <a href="/chris-keathley/">Chris Keathley</a>
+                      <span class="css-tom7uu1">Chris Keathley</span>
+                    </strong>
+                    <!-- :-->
+                    <span></span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th>4:45 - 5:15</th>
+                  <td>
+                    <strong>
+                      <span class="css-tom7uu1">Andrea Leopardi</span>
+                    </strong>
+                    <!-- :-->
+                    <span></span>
+                  </td>
+                </tr>
+                <tr>
+                  <th></th>
+                  <td>
+                    <strong>
+                      Announcements - dinner info - need ticket, get one before you leave!
                     </strong>
                   </td>
                 </tr>
                 <tr>
-                  <th>4:30 -  5:00</th>
-                  <td>
-                    <strong>
-                      <a href="/zach-daniel/">Zach Daniel</a>
-                    </strong>
-                    :<!-- -->
-                    <span>Domain Modeling, Elevated</span>
-                  </td>
-                </tr>
-                <tr>
-                  <th>6:00 -  9:00</th>
+                  <th>6:00 - 10:00</th>
                   <td>
                     <a href="https://www.google.com/maps/place/Moxy+Chattanooga+Downtown/@35.0399322,-85.3071289,17z/data=!4m20!1m10!3m9!1s0x88605fe8761cce13:0xca45ed9b3732da0b!2sMoxy+Chattanooga+Downtown!5m2!4m1!1i2!8m2!3d35.0399322!4d-85.3071289!16s%2Fg%2F11f5488nmn!3m8!1s0x88605fe8761cce13:0xca45ed9b3732da0b!5m2!4m1!1i2!8m2!3d35.0399322!4d-85.3071289!16s%2Fg%2F11f5488nmn">
                       Dinner - The Moxy <br /> 1220 King St Chattanooga, TN 37403
@@ -438,15 +471,14 @@ defmodule GceWeb.CoreComponents do
               <thead>
                 <tr>
                   <th colspan="2" style="padding-top:3rem">
-                    <a href="#day-2" id="day-2">#</a>
                     <!-- -->
-                                            Saturday, May 20th
+                                            Saturday, May 11th
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th>8:00 -  8:45</th>
+                  <th>8:00 - 8:45</th>
                   <td>
                     <span>Breakfast</span>
                   </td>
@@ -454,14 +486,14 @@ defmodule GceWeb.CoreComponents do
                 <tr>
                   <th>8:45 -  9:00</th>
                   <td>
-                    <span>Announcements</span>
+                    <span>Announcements and Welcome</span>
                   </td>
                 </tr>
                 <tr>
                   <th>9:00 -  9:45</th>
                   <td>
                     <strong>
-                      <a href="/bryan-hunter/">Bryan Hunter</a>
+                      <span class="css-tom7uu1">Bryan Hunter</span>
                     </strong>
                   </td>
                 </tr>
@@ -469,8 +501,10 @@ defmodule GceWeb.CoreComponents do
                   <th>9:50 - 10:20</th>
                   <td>
                     <strong>
-                      <a href="/joshua-plicque/">Joshua Plicque</a>
+                      <span class="css-tom7uu1">Chris Miller</span>
                     </strong>
+                    :<!-- -->
+                    <span>"How to Move Fast and Build Things: Spawnfest 2023 Recap"</span>
                   </td>
                 </tr>
                 <tr>
@@ -483,82 +517,98 @@ defmodule GceWeb.CoreComponents do
                   <th>10:50 - 11:20</th>
                   <td>
                     <strong>
-                      <a href="/eric-oestrich/">Eric Oestrich</a>
+                      <span class="css-tom7uu1">Todd Resudek</span>
                     </strong>
                     :<!-- -->
-                    <span>I know you know Phoenix, but do you know Aino?</span>
+                    <span>"The Robots Won"</span>
                   </td>
                 </tr>
                 <tr>
-                  <th>11:20 - 11:30</th>
+                  <th>11:25 - 11:30</th>
                   <td>
-                    <span>Platinum Sponsor Talk - Adobe</span>
+                    <span>Buffer</span>
                   </td>
                 </tr>
                 <tr>
                   <th>11:30 - 12:00</th>
                   <td>
                     <strong>
-                      <a href="/greg-mefford/">Greg Mefford</a>
+                      <span class="css-tom7uu1">Savannah Manning</span>
                     </strong>
                     and
                     <strong>
-                      <a href="/matt-enlow/">Matt Enlow</a>
+                      <span class="css-tom7uu1">Bruce Tate</span>
                     </strong>
                     :<!-- -->
-                    <span>Styler: An Elixir Style-Guide Enforcer</span>
+                    <span>"An Expedition into Elixir ML"</span>
                   </td>
                 </tr>
                 <tr>
                   <th>12:00 - 12:30</th>
                   <td>
                     <strong>
-                      <a href="/sigu-magwa/">Sigu Magwa</a>
+                      <span class="css-tom7uu1">Amos King</span>
                     </strong>
-                    :<!-- -->
-                    <span>Observability in Elixir Applications</span>
                   </td>
                 </tr>
                 <tr>
-                  <th>12:30 -  1:40</th>
+                  <th>12:30 - 1:40</th>
                   <td>
                     <span>Lunch</span>
                   </td>
                 </tr>
                 <tr>
-                  <th>1:40 -  2:10</th>
-                  <td>
-                    <span>Lightning Talks</span>
-                  </td>
-                </tr>
-                <tr>
-                  <th>2:15 -  2:45</th>
+                  <th>1:40 - 2:10</th>
                   <td>
                     <strong>
-                      <a href="/jeffrey-matthias/">Jeffrey Matthias</a>
+                      <span class="css-tom7uu1">Anna Sherman</span>
                     </strong>
+                    :<!-- -->
+                    <span>
+                      "The Joy of Functional Coding: Exploring Functional Programming through the Lens of Bob Ross"
+                    </span>
                   </td>
                 </tr>
                 <tr>
-                  <th>2:45 -  3:00</th>
+                  <th>2:15 - 2:45</th>
+                  <td>
+                    <strong>
+                      <span class="css-tom7uu1">Chris Nelson</span>
+                    </strong>
+                    :<!-- -->
+                    <span>
+                      "LiveState: LiveView re-imagined"
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>2:45 - 3:00</th>
                   <td>
                     <span>Break</span>
                   </td>
                 </tr>
                 <tr>
-                  <th>3:00 -  3:30</th>
+                  <th>3:00 - 3:30</th>
                   <td>
                     <strong>
-                      <a href="/scott-southworth/">Scott Southworth</a>
+                      <span class="css-tom7uu1">Zach Daniel </span>
                     </strong>
+                    :<!-- -->
+                    <span>
+                      "The Story of a Function"
+                    </span>
                   </td>
                 </tr>
                 <tr>
-                  <th>3:45 -  4:30</th>
+                  <th>3:45 - 4:30</th>
                   <td>
                     <strong>
-                      <a href="/bruce-tate/">Bruce Tate</a>
+                      <span class="css-tom7uu1">Lars Wikman</span>
                     </strong>
+                    :<!-- -->
+                    <span>
+                      "Simplicity"
+                    </span>
                   </td>
                 </tr>
                 <tr>
