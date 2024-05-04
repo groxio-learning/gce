@@ -482,8 +482,7 @@
                 position: relative;
             }
           </style>
-          <%= for speaker <- Gce.Speaker.all 
-           do %>
+          <%= for speaker <- Enum.sort(Gce.Speaker.all) do %>
             <.speaker
               name={speaker.name}
               slug={speaker.slug}
@@ -524,11 +523,10 @@
             }
         }
       </style>
-      <!-- <.schedule /> -->
-      <.schedule_tbd />
+      <.schedule1 />
 
       <hr class="css-1jzl9nn evjgrpk0" />
-      <section id="schedule" class="css-5a3jdq">
+      <section id="training" class="css-5a3jdq">
         <style data-emotion-css="x64vdy">
           .css-x64vdy {
               max-width: 63rem;
@@ -886,10 +884,8 @@
               <style data-emotion-css="lwdzql1">
                 .css-lwdzql1 {
                     margin-bottom: 1.45rem;
-                    display: flex;
-                    -webkit-flex-direction: row;
-                    -ms-flex-direction: row;
-                    flex-direction: row;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr); /* Two columns per row */
                     gap: 1.45rem;
                 }
               </style>
@@ -905,7 +901,6 @@
                       display: -webkit-flex;
                       display: -ms-flexbox;
                       display: flex;
-                      width: 48%;
                       -webkit-flex-direction: column;
                       -ms-flex-direction: column;
                       flex-direction: column;
@@ -982,6 +977,22 @@
                   <p>
                     One Provider + One Patient = Better Health <br />
                     We wake up every morning with a goal to deliver healthcare that truly cares. Meet the team striving to make your experience remarkable.
+                  </p>
+                </a>
+                <a href="https://billyforinsurance.com/" class="css-1yuqrf51">
+                  <style data-emotion-css="1fvj3az23">
+                    .css-1fvj3az23 {
+                        margin: 1.45rem auto;
+                        max-width: 40%;
+                    }
+                  </style>
+                  <img
+                    src="/images/sponsor-logos/billy.png"
+                    alt="Billy for Insurance"
+                    class="css-1fvj3az23"
+                  />
+                  <p>
+                    Billy is an all in one construction compliance solution. We redefine what you should expect from a construction compliance solution. Verify that vendors have the right compliance documents so you can mitigate risk in one place.
                   </p>
                 </a>
               </div>
