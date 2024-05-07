@@ -342,7 +342,7 @@ defmodule GceWeb.CoreComponents do
                   <th>9:50 - 10:20</th>
                   <td>
                     <strong>
-                      <span class="css-tom7uu1">Brian Cardela</span>
+                      <span class="css-tom7uu1">Brian Cardarella</span>
                     </strong>
                     :<!-- -->
                     <span>
