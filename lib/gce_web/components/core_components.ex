@@ -385,10 +385,10 @@ defmodule GceWeb.CoreComponents do
                 <tr>
                   <th>12:00 - 12:30</th>
                   <td>
-                    <strong><span class="css-tom7uu1">Stuart Page</span></strong>
+                    <strong><span class="css-tom7uu1">Flora Petterson</span></strong>
                     :<!-- -->
                     <span>
-                      "Stupid, Awesome AI! Product Development When the Tech Is Changing Daily"
+                      "The Programming Languages Tour, Elixir’s Version"
                     </span>
                   </td>
                 </tr>
@@ -418,20 +418,24 @@ defmodule GceWeb.CoreComponents do
                   <th>3:00 - 3:30</th>
                   <td>
                     <strong>
-                      <span class="css-tom7uu1">Sam McDavid </span>
+                      <span class="css-tom7uu1">Anna Sherman </span>
                     </strong>
                     :<!-- -->
-                    <span>"ML for Trading Stocks in Elixir"</span>
+                    <span>
+                      "The Joy of Functional Coding: Exploring Functional Programming through the Lens of Bob Ross"
+                    </span>
                   </td>
                 </tr>
                 <tr>
                   <th>3:30 - 4:00</th>
                   <td>
                     <strong>
-                      <span class="css-tom7uu1">Flora Petterson </span>
+                      <span class="css-tom7uu1">Stuart Page </span>
                     </strong>
                     :<!-- -->
-                    <span> "The Programming Languages Tour, Elixir’s Version"</span>
+                    <span>
+                      "Stupid, Awesome AI! Product Development When the Tech Is Changing Daily"
+                    </span>
                   </td>
                 </tr>
                 <tr>
@@ -572,11 +576,11 @@ defmodule GceWeb.CoreComponents do
                   <th>1:40 - 2:10</th>
                   <td>
                     <strong>
-                      <span class="css-tom7uu1">Anna Sherman</span>
+                      <span class="css-tom7uu1">Sam McDavid</span>
                     </strong>
                     :<!-- -->
                     <span>
-                      "The Joy of Functional Coding: Exploring Functional Programming through the Lens of Bob Ross"
+                      "ML for Trading Stocks in Elixir"
                     </span>
                   </td>
                 </tr>
