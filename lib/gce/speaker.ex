@@ -158,7 +158,7 @@ defmodule Gce.Speaker do
         "andrea-leopardi.jpeg",
         "Andrea (he/him) is a software engineer and architect, a public speaker, trainer, and book author. He's been a member of the Elixir core team for several years. He works as a principal engineer at Veeps. He's from far far away, a tiny town in the middle of Italy.
         ",
-        nil
+        "The World is a Network (and We are Just Nodes)"
       ),
       spk(
         "Bruce Tate",
