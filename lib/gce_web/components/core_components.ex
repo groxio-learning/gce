@@ -249,6 +249,7 @@ defmodule GceWeb.CoreComponents do
         <style data-emotion-css="1hchxhu">
           .css-1hchxhu {
               width: calc(100% / 3 * 2);
+              overflow-x: auto;
           }
 
           @supports (display: grid) {
@@ -286,6 +287,12 @@ defmodule GceWeb.CoreComponents do
                   text-align: right;
               }
 
+              @media screen and (max-width: 42rem) {
+                .css-tom7uu thead th {
+                  text-align: left;
+                       }
+              }
+
               .css-tom7uu thead th a {
                   opacity: 0;
                   position: absolute;
@@ -312,10 +319,10 @@ defmodule GceWeb.CoreComponents do
                     <strong><a href="#day-1">#day 1</a></strong>
                     <strong><a href="#day-2">#day 2</a></strong>
                   </div>
-                  <th id="day-1" colspan="2">
-                    Friday, May 10th
-                  </th>
                 </tr>
+                <th id="day-1" colspan="2">
+                  Friday, May 10th
+                </th>
               </thead>
               <tbody>
                 <tr>
@@ -484,12 +491,9 @@ defmodule GceWeb.CoreComponents do
                 </tr>
               </tbody>
               <thead>
-                <tr>
-                  <th id="day-2" colspan="2" style="padding-top:1rem">
-                    <!-- -->
-                                            Saturday, May 11th
-                  </th>
-                </tr>
+                <th id="day-2" colspan="2" style="padding-top:1rem">
+                  Saturday, May 11th
+                </th>
               </thead>
               <tbody>
                 <tr>
