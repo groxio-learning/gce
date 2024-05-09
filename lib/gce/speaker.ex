@@ -10,7 +10,7 @@ defmodule Gce.Speaker do
         "frank-hunleth.jpg",
         "Frank Hunleth is an embedded systems programmer, OSS maintainer, and Nerves core team member. At his day job, he uses Elixir and Nerves at SmartRent, a company that provides smart home automation for rental properties. When not in front of a computer, he loves running and spending time with his family.
       ",
-        "Nerves Project Update"
+        "Nerves Update"
       ),
       spk(
         "Bryan Hunter",
@@ -34,7 +34,7 @@ defmodule Gce.Speaker do
         "savannah-manning.jpeg",
         "Savannah Manning, a spirited Software Engineer since 2020, thrives in the Elixir development community. Before transitioning to software engineering, she founded an international climbing company focused on outdoor skill-building. Last year, she shared her experiences at both the EU and US Elixir conferences, shedding light on her journey into the Elixir space. With a blend of technical expertise and adventurous spirit, she continues to push boundaries, both in code and on the rock face.
       ",
-        "AI: Less Scary Than Your Last Date's Mood Swings - Emotion Detection Made Easy with Bumblebee"
+        "An Expedition into Elixir ML"
       ),
       spk(
         "Chris Miller",
@@ -49,7 +49,7 @@ defmodule Gce.Speaker do
         "zach-daniel.jpeg",
         "Zach is a software engineer with extensive experience building applications in production with Elixir. He is the author of the Ash Framework, a resource-oriented declarative design framework for Elixir, and principal platform engineer at Alembic. He has a passion for declarative design, functional programming, and contributing to the open source community. When not programming, he enjoys spending time with his friends and family, taking trips in his RV and studying the Japanese language.
       ",
-        nil
+        "The Story of a Function"
       ),
       spk(
         "Chris Keathley",
@@ -95,7 +95,7 @@ defmodule Gce.Speaker do
         "todd-resudek.jpeg",
         "Todd is a dedicated father of four living in Colorado. Outside of family life, Todd is a Principal Engineer at Jackpocket, a maintainer of HEx, and the organizer of NervesConf US.
       ",
-        nil
+        "The Robots Won"
       ),
       spk(
         "Anna Sherman",
@@ -112,7 +112,7 @@ defmodule Gce.Speaker do
         "lekha-surasani.jpeg",
         "Lekha is currently working as a Senior Software Engineer at Adpipe. She’s worked with a variety of technologies, including Ruby/Rails, React, Elixir and Phoenix/Live View, and primarily works at startups. In her free time, she likes to read, travel, and go on long walks in her city.
       ",
-        nil
+        "Tales of Using Phoenix LiveView at an Early Stage Startup"
       ),
       spk(
         "Stuart Page",
@@ -150,7 +150,7 @@ defmodule Gce.Speaker do
         "lars-wikman",
         "lars-wikman.jpg",
         "Founder and writer of Underjord. An experimental programmer ranging from embedded Nerves to LiveView frontends. Shares enthusiasm for the BEAM across writing, podcasts, videos and livestreams. Just wants to make things that do things.",
-        nil
+        "Simplicity"
       ),
       spk(
         "Andrea Leopardi",
@@ -165,14 +165,14 @@ defmodule Gce.Speaker do
         "bruce-tate",
         "bruce-tate.jpeg",
         "Bruce Tate lives in Chattanooga, Tennessee. An avid adventurer, he enjoys kayaking rivers, indoor climbing, and boating. He has actively participated in the launch of three companies. With a strong focus on education, Bruce is an author of over a dozen books and a prominent figure in the Elixir community as a speaker, author, editor, and conference organizer. In 2018, he founded Groxio, a platform dedicated to teaching computer languages. Bruce Tate's contributions in the field of programming education have made a significant impact nationally and beyond.",
-        nil
+        "An Expedition into Elixir ML"
       ),
       spk(
         "Brian Cardarella",
         "brian-cardarella",
         "brian-cardarella.jpg",
         "Founder and CEO of DockYard.",
-        nil
+        "LiveView Native"
       )
     ]
   end
