@@ -470,7 +470,7 @@ defmodule GceWeb.CoreComponents do
                       <span class="css-tom7uu1">Andrea Leopardi</span>
                     </strong>
                     <!-- :-->
-                    <span></span>
+                    <span>"The World is a Network (and We are Just Nodes)"</span>
                   </td>
                 </tr>
                 <tr>
