@@ -456,10 +456,10 @@ defmodule GceWeb.CoreComponents do
                   <th>4:15 - 4:45</th>
                   <td>
                     <strong>
-                      <span class="css-tom7uu1">Chris Keathley</span>
+                      <span class="css-tom7uu1">Zach Daniel</span>
                     </strong>
                     <!-- :-->
-                    <span></span>
+                    <span>"The Story of a Function"</span>
                   </td>
                 </tr>
 
@@ -610,12 +610,10 @@ defmodule GceWeb.CoreComponents do
                   <th>3:00 - 3:30</th>
                   <td>
                     <strong>
-                      <span class="css-tom7uu1">Zach Daniel </span>
+                      <span class="css-tom7uu1">Chris Keathley</span>
                     </strong>
                     :<!-- -->
-                    <span>
-                      "The Story of a Function"
-                    </span>
+                    <span></span>
                   </td>
                 </tr>
                 <tr>
